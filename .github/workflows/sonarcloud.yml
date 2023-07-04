@@ -5,6 +5,7 @@ on:
       - master
       - main
       - testMAIN
+      
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
