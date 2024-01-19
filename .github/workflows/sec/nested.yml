@@ -1,4 +1,5 @@
 name: nested echo
+on:
   push:
   workflow_dispatch:
 
