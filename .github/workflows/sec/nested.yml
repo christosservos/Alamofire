@@ -1,0 +1,9 @@
+name: nested echo
+  push:
+  workflow_dispatch:
+
+jobs:
+  nested:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "this workflow is under .github/workflows/sec/*.yml path and works fine"
